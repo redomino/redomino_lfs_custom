@@ -1,1 +1,2 @@
-#
+import shopview_patch
+import custom_settings
