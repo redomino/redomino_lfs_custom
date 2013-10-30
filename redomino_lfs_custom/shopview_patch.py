@@ -1,6 +1,6 @@
 from lfs.core import views
 from django.shortcuts import render_to_response
-from lfs.caching.utils import lfs_get_object_or_404
+from lfs.caching.utils import lfs_get_object_or_404, lfs_get_object
 from lfs.catalog.models import Category
 from lfs.core.models import Shop
 from django.template import RequestContext
@@ -61,7 +61,11 @@ def shop_view(request,slug="", start=1, template_name="lfs/shop/shop.html"):
     else:
         temp = dict()
 
-    category = lfs_get_object_or_404(Category, slug='home-products')
+    category = lfs_get_object(Category, slug='home-products')
+    if not category:
+        return render_to_response(template_name, RequestContext(request, {
+            "shop":shop
+        }))
 
     # Calculates parameters for display.
     try:
