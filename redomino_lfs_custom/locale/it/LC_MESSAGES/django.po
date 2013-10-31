@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-21 12:56+0200\n"
+"POT-Creation-Date: 2013-10-25 09:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fabrizio Reale <fabrizio.reale@redomino.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,31 @@ msgstr ""
 msgid "Province"
 msgstr "Provincia"
 
+#: custom_settings.py:11
+msgid "First Name"
+msgstr ""
+
+#: custom_settings.py:13
+msgid "Last Name"
+msgstr ""
+
+#: custom_settings.py:19 templates/lfs/local_translations.html:98
+msgid "Voucher quantity"
+msgstr "Quantità di coupon da generare"
+
+#: custom_settings.py:20 templates/lfs/local_translations.html:47
+#: templates/lfs/local_translations.html:99
+msgid "Voucher value"
+msgstr "Valore del singolo coupon"
+
+#: custom_settings.py:21 templates/lfs/local_translations.html:100
+msgid "Voucher effective from"
+msgstr "Coupon valido con totale del carrello a partire da"
+
+#: custom_settings.py:22 templates/lfs/local_translations.html:101
+msgid "Voucher limit"
+msgstr "Numero di volte che il singolo coupon può essere riutilizzato"
+
 #: templates/lfs/local_translations.html:2
 msgid "Zip code"
 msgstr "CAP"
@@ -34,6 +59,115 @@ msgstr "Presso"
 #: templates/lfs/local_translations.html:11
 msgid "Street"
 msgstr "Indirizzo"
+
+#: templates/lfs/local_translations.html:17
+msgid "Voucher code"
+msgstr "Codice del coupon"
+
+#: templates/lfs/local_translations.html:20
+msgid "There are no vouchers yet."
+msgstr "Non ci sono ancora Coupon"
+
+#: templates/lfs/local_translations.html:23
+msgid "Add Voucher Group"
+msgstr "Aggiungi un gruppo di Coupon"
+
+#: templates/lfs/local_translations.html:26
+#: templates/lfs/local_translations.html:95
+msgid "The voucher doesn't exist."
+msgstr "Il coupon non esiste."
+
+#: templates/lfs/local_translations.html:29
+msgid "Vouchers have been created."
+msgstr "Coupon creati"
+
+#: templates/lfs/local_translations.html:32
+msgid "Vouchers have been deleted."
+msgstr "Coupon rimossi"
+
+#: templates/lfs/local_translations.html:35
+msgid "Voucher data has been save."
+msgstr "Dati del coupon salvati."
+
+#: templates/lfs/local_translations.html:38
+msgid "Voucher group and assigned vouchers have been deleted."
+msgstr "Gruppo coupon e coupon relativi rimossi."
+
+#: templates/lfs/local_translations.html:41
+msgid "Voucher options has been save."
+msgstr "Opzioni del coupon salvate."
+
+#: templates/lfs/local_translations.html:44
+msgid "Voucher number"
+msgstr "Codice del coupon"
+
+#: templates/lfs/local_translations.html:50
+msgid "Voucher tax"
+msgstr "Tasse Coupon"
+
+#: templates/lfs/local_translations.html:53
+msgid "Vouchers"
+msgstr "Coupon"
+
+#: templates/lfs/local_translations.html:56
+msgid "Add voucher group"
+msgstr "Aggiungi un gruppo di Coupon"
+
+#: templates/lfs/local_translations.html:59
+msgid "Save voucher group"
+msgstr "Aggiungi un gruppo di Coupon"
+
+#: templates/lfs/local_translations.html:62
+msgid "Voucher groups"
+msgstr "Aggiungi un gruppo di Coupon"
+
+#: templates/lfs/local_translations.html:65
+msgid "Do you really want to delete this voucher group?"
+msgstr "Vuoi veramente cancellare questo gruppo di coupon?"
+
+#: templates/lfs/local_translations.html:68
+msgid "Delete voucher group"
+msgstr "Elimina un gruppo di Coupon"
+
+#: templates/lfs/local_translations.html:71
+msgid "Add vouchers"
+msgstr "Aggiungi Coupon"
+
+#: templates/lfs/local_translations.html:74
+msgid "There are no vouchers for this group yet."
+msgstr "Non ci sono ancora Coupon"
+
+#: templates/lfs/local_translations.html:77
+msgid "The voucher is valid."
+msgstr "Il coupon è valido."
+
+#: templates/lfs/local_translations.html:80
+msgid "The voucher is not active."
+msgstr "Il coupon non è più attivo."
+
+#: templates/lfs/local_translations.html:83
+msgid "The voucher has been already used."
+msgstr "Il coupon è già stato utilizzato."
+
+#: templates/lfs/local_translations.html:86
+msgid "The voucher is not active yet."
+msgstr "Il coupon non è ancora attivo."
+
+#: templates/lfs/local_translations.html:89
+msgid "The voucher is not active any more."
+msgstr "Il coupon non è più attivo."
+
+#: templates/lfs/local_translations.html:92
+msgid "The voucher is not valid for this cart price."
+msgstr "Il coupon non è valido per il prezzo di questo carrello."
+
+#: templates/lfs/local_translations.html:102
+msgid "Voucher start date"
+msgstr "Coupon valido con totale del carrello a partire dal giorno:"
+
+#: templates/lfs/local_translations.html:105
+msgid "Delete vouchers"
+msgstr "Elimina Coupon"
 
 #: templates/lfs/shop/shop.html:55 templates/lfs/shop/shop.html.py:74
 msgid "Starting at"
