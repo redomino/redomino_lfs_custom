@@ -26,3 +26,31 @@ VoucherForm.base_fields['value'] = VoucherForm.value
 VoucherForm.base_fields['effective_from'] = VoucherForm.effective_from
 VoucherForm.base_fields['limit'] = VoucherForm.limit
 
+
+from django.shortcuts import render_to_response
+from django.contrib.auth.forms import PasswordChangeForm
+from lfs.customer import views
+from django.contrib.auth.decorators import login_required
+from django.template import RequestContext
+from django.http import HttpResponseRedirect
+from django.core.urlresolvers import reverse
+
+@login_required
+def password(request, template_name="lfs/customer/password.html"):
+    """Changes the password of current user.
+    """
+    if request.method == "POST":
+        form = PasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse("lfs_my_account")+'?confirm=1')
+    else:
+        form = PasswordChangeForm(request.user)
+
+    return render_to_response(template_name, RequestContext(request, {
+        "form": form
+    }))
+
+views.password = password
+
+

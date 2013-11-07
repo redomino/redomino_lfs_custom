@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-25 09:18+0200\n"
+"POT-Creation-Date: 2013-11-06 12:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fabrizio Reale <fabrizio.reale@redomino.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,6 +168,24 @@ msgstr "Coupon valido con totale del carrello a partire dal giorno:"
 #: templates/lfs/local_translations.html:105
 msgid "Delete vouchers"
 msgstr "Elimina Coupon"
+
+#: templates/lfs/customer/account.html:8
+msgid "Your Account"
+msgstr ""
+
+#: templates/lfs/customer/account.html:14
+msgid "Modify applied correctly"
+msgstr "Modifiche applicate correttamente"
+
+#: templates/lfs/customer/account.html:18
+msgid "Welcome!"
+msgstr ""
+
+#: templates/lfs/customer/account.html:20
+msgid ""
+"Welcome to your account. Here you can find your orders, you can change your "
+"addresses, email address and your password."
+msgstr ""
 
 #: templates/lfs/shop/shop.html:55 templates/lfs/shop/shop.html.py:74
 msgid "Starting at"
