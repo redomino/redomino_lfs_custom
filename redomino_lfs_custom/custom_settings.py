@@ -2,6 +2,10 @@ from django.conf import settings
 from django.utils.translation import ugettext as _
 
 settings.POSTAL_ADDRESS_STATE = getattr(settings, 'POSTAL_ADDRESS_STATE', (_("Province"), True))
+settings.POSTAL_ADDRESS_CITY = getattr(settings, 'POSTAL_ADDRESS_CITY', (_("City"), True))
+settings.POSTAL_ADDRESS_LINE1 = getattr(settings, 'POSTAL_ADDRESS_LINE1', (_("Address"), True))
+settings.POSTAL_ADDRESS_CODE = getattr(settings, 'POSTAL_ADDRESS_CODE', (_("Zip code"), True))
+
 settings.SHOW_VAT = getattr(settings, 'SHOW_VAT', False)
 
 
