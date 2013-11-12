@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-06 12:20+0100\n"
+"POT-Creation-Date: 2013-11-12 09:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fabrizio Reale <fabrizio.reale@redomino.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,34 +22,42 @@ msgstr ""
 msgid "Province"
 msgstr "Provincia"
 
-#: custom_settings.py:11
+#: custom_settings.py:5
+msgid "City"
+msgstr ""
+
+#: custom_settings.py:6
+msgid "Address"
+msgstr ""
+
+#: custom_settings.py:7 templates/lfs/local_translations.html:2
+msgid "Zip code"
+msgstr "CAP"
+
+#: custom_settings.py:15
 msgid "First Name"
 msgstr ""
 
-#: custom_settings.py:13
+#: custom_settings.py:17
 msgid "Last Name"
 msgstr ""
 
-#: custom_settings.py:19 templates/lfs/local_translations.html:98
+#: custom_settings.py:23 templates/lfs/local_translations.html:98
 msgid "Voucher quantity"
 msgstr "Quantità di coupon da generare"
 
-#: custom_settings.py:20 templates/lfs/local_translations.html:47
+#: custom_settings.py:24 templates/lfs/local_translations.html:47
 #: templates/lfs/local_translations.html:99
 msgid "Voucher value"
 msgstr "Valore del singolo coupon"
 
-#: custom_settings.py:21 templates/lfs/local_translations.html:100
+#: custom_settings.py:25 templates/lfs/local_translations.html:100
 msgid "Voucher effective from"
 msgstr "Coupon valido con totale del carrello a partire da"
 
-#: custom_settings.py:22 templates/lfs/local_translations.html:101
+#: custom_settings.py:26 templates/lfs/local_translations.html:101
 msgid "Voucher limit"
 msgstr "Numero di volte che il singolo coupon può essere riutilizzato"
-
-#: templates/lfs/local_translations.html:2
-msgid "Zip code"
-msgstr "CAP"
 
 #: templates/lfs/local_translations.html:8
 #: templates/lfs/local_translations.html:14
@@ -168,6 +176,10 @@ msgstr "Coupon valido con totale del carrello a partire dal giorno:"
 #: templates/lfs/local_translations.html:105
 msgid "Delete vouchers"
 msgstr "Elimina Coupon"
+
+#: templates/lfs/local_translations.html:106
+msgid "Voucher"
+msgstr "Coupon"
 
 #: templates/lfs/customer/account.html:8
 msgid "Your Account"
