@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /it/cart
+Disallow: /it/admin
+Disallow: /it/checkout-login
+Disallow: /it/checkout
+Disallow: /it/page/imprint
+Disallow: /it/page/footer-text
+Disallow: /it/contact
+Disallow: /it/login
+Disallow: /it/password-reset
+Disallow: /it/password-reset-done
+Disallow: /it/password-reset-complete
+Disallow: /it/password-reset-confirm
+
