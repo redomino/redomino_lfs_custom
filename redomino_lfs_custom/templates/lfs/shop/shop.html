@@ -14,6 +14,8 @@
     {{ shop.static_block.html|safe }}
     {{ shop.description|safe }}
 
+
+{% if products %}
 	<div class="row">
 		<div class="col-md-12">
 			<div class="pull-right clearfix">
@@ -22,7 +24,7 @@
 			{% include "lfs/catalog/categories/product/products_navigation.html" %}
 		</div>
 	</div>
-
+{% endif %}
 
 	<div id="products" >
 		{% with amount_of_cols=products.0|length %}
@@ -99,6 +101,7 @@
 
 		{% endwith %}
 	</div>
+{% if products %}
 
 	<div class="row">
 		<div class="col-md-12">
@@ -108,7 +111,7 @@
 			{% include "lfs/catalog/categories/product/products_navigation.html" %}
 		</div>
 	</div>
-
+{% endif %}
 
 
 {% endblock %}

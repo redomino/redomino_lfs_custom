@@ -57,4 +57,9 @@ def password(request, template_name="lfs/customer/password.html"):
 
 views.password = password
 
+from lfs.checkout.forms import OnePageCheckoutForm
+
+OnePageCheckoutForm.payment_method = forms.CharField(required=False, max_length=3)
+OnePageCheckoutForm.base_fields['payment_method'] = OnePageCheckoutForm.payment_method
+
 
