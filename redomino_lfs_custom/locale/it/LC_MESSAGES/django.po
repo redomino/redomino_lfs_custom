@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12 14:48+0100\n"
+"POT-Creation-Date: 2013-11-15 17:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fabrizio Reale <fabrizio.reale@redomino.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgstr "Coupon"
 
 #: templates/lfs/local_translations.html:108
 msgid "your order has been paid."
-msgstr "il tuo ordine Ã¨ stato pagato."
+msgstr "il tuo ordine è stato pagato."
 
 #: templates/lfs/customer/account.html:8
 msgid "Your Account"
@@ -202,6 +202,42 @@ msgid ""
 "Welcome to your account. Here you can find your orders, you can change your "
 "addresses, email address and your password."
 msgstr ""
+
+#: templates/lfs/pdt/pdt.html:5
+msgid "Transaction complete"
+msgstr "Transazione completata"
+
+#: templates/lfs/pdt/pdt.html:6
+msgid "Thank you for your payment"
+msgstr "Grazie per il pagamento"
+
+#: templates/lfs/pdt/pdt.html:7
+msgid "Please print this page for your records"
+msgstr "Stampa questa pagina conservare questi dati."
+
+#: templates/lfs/pdt/pdt.html:11
+msgid "Payer:"
+msgstr "Acquirente:"
+
+#: templates/lfs/pdt/pdt.html:12
+msgid "Payer Email:"
+msgstr "Email Acquirente:"
+
+#: templates/lfs/pdt/pdt.html:13
+msgid "Amount:"
+msgstr "Ammontare:"
+
+#: templates/lfs/pdt/pdt.html:14
+msgid "Reference:"
+msgstr "Riferimento:"
+
+#: templates/lfs/pdt/pdt.html:20
+msgid "Transaction Failed"
+msgstr "Transazione fallita"
+
+#: templates/lfs/pdt/pdt.html:21
+msgid "Sorry transaction failed, please try a different form of payment"
+msgstr "Spiacente, transazione fallita. Prova con una form differente."
 
 #: templates/lfs/shop/shop.html:55 templates/lfs/shop/shop.html.py:74
 msgid "Starting at"
