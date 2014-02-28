@@ -30,7 +30,7 @@ def product_inline(request, product, template_name="lfs/catalog/products/product
     display_variants_list = True
     if product.is_variant():
         parent = product.parent
-        if parent.variants_display_type == SELECT:
+        if parent.variants_display_type == 'SELECT':
             display_variants_list = False
             # Get all properties (sorted). We need to traverse through all
             # property/options to select the options of the current variant.
